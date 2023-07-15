@@ -1,0 +1,35 @@
+## Donot touch this file
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: backend
+  labels:
+    cloud.googleapis.com/location: northamerica-northeast2
+  annotations:
+    run.googleapis.com/ingress: all
+    run.googleapis.com/ingress-status: all
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/maxScale: "5"
+        autoscaling.knative.dev/minScale: "1"
+    spec:
+      containerConcurrency: 80
+      timeoutSeconds: 300
+      serviceAccountName: github-action@mmh-welfare.iam.gserviceaccount.com
+      containers:
+        - image: gcr.io/mmh-welfare/backend:$VERSION
+          ports:
+            - name: http1
+              containerPort: 3000
+          env:
+          - name: DB_URL
+            valueFrom:
+              secretKeyRef:
+                key: '2'
+                name: DB_URL
+          resources:
+            limits:
+              cpu: "1"
+              memory: 128Mi

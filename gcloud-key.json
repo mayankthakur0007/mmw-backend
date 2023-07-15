@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mmh-welfare",
+  "private_key_id": "0df77b6f09b2d6223ed9479a62f7632e082dd057",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCRZOVe5sqDQ2ew\nTYkEXQjDmmUlvyhom1YH+MIjbCX4NbR+cl4iUKVrA0R2xTm9dkFVApasz5ijDm13\nrerPByYri2DkI9fiq/cDVhLGI73D5vj8xzoW4UGAfIAGiS+v54rAw6iVRn2IWxSP\nFCgb1TOK4XXvX4U1jgdPsblarUBdcovRp1j2kcltVAYRkUr6CbfexrLc4OQy5yEe\nrpx3THYVS1Jk3XurDgbVyzy2oijM2ZNKdtWM90k67dBS/j/65pb//PaZC8Ghx/Yf\nZDJqach5uAWvyFXbt6Dwr3UBA46+lYl66zF3B5+rYcKMLzPdof/p61Wz4MDtS94M\nHlrhHychAgMBAAECggEABQ/j+4KiDOFpKAZ/DX+WuUa0HFUUOVYlL+hdjAGtLb/i\n7Z8aP2wa4keuF8uEl9/Y5PaO2+vrZsvvDEJqITSgw9XZtP+5ebsegcd6plritcIi\nK5zdHSRRFUHgbDnVBvUTC+SUB0R5xOhU5ilfvx5UadKxOjkTaHquLvxjVXCgQ9CW\nb2lHtKRXpRzarAHYTgQ4mgm7XuZnNu9InDkBMz98aYbDQTN0j7CTsCur87Kn+JPl\nM57JIzzS3GjGgOJSiiealFwxzFukX6UG+sEMvSdzHkmdqFw2btM7OQPLSdB5KOXb\nrxg4GhDvj+QNa98TIaeXXrODWeD/l7e7UvKwKPAptQKBgQDNOSV88AmmXC0uDg/Q\n8NVBEbA1ewh/9DjDOLCk1UhdN2/CbFkV2W8xpFQno8e10ZErC+gUBxyzGE3zQecL\nXwaIifjujqg5pWLkZvSL7C8UeCMOd6dGW9NtyYMHzqOLbtUBTFEgsQdMEbZIq/yr\ncFcS1L8BVsObeFpJNu+9VUQYDQKBgQC1XiuDO3RGPrsa5bArti2UMfD/vM3qpOP9\non5+r9K2qrvAcWIe86DA+G4QoOhXos3qXDwKI2Ef8K69NrIDuQBtKEMfguunQYu8\nABGwLM+cZAGh3rJR1JRzv95VSYONsKFN/ISO53y1OqDPhE96kr2dQGGWiuf4Ik3U\nJXvnxuPSZQKBgAHVwvoNA2kTZewFgCq0HJQKXnL7+KV8P42vUhUHOzBqMHuikGFb\nolzlRUNdeYmsqAmkf5y+O4l2bCwCqNg3L03FPg6UA/kP+4RjT0h5AirCsD2O4FYG\nuCtBJATL2jaC9TCfyBHsw03w0ppvv0ChLoYilNqkNfeL6fLBpP8iZgt5AoGAZ0kL\nqp6PJvnOgBDR9PK4ni6aumkBM2FX3TdOpkLm0tQEPCHV6R6BK6POunWIG3BBp/eC\n0Zs4UoI0YNjnI6uVjJRjNWzPWt6+/v9jE1tRmBRzwYUbM/LF3+0iZpuI6YXvNoRZ\n0TAPGv4aWlNVF869YPIrIRpV5D9U5z25hFMFpukCgYEAsORQ9TAT0BtXY2xe+KOW\nSZlfqznUwYWDV4HhDlyfMMsao+GvkDaEOk3EiqU0H7nCu3SknNZJie05B5WuQw1q\n6Cq10r83qzcBArPDsG33bbAf8S2uzYR97u/jUWF3jLTsegqmohvyIdIaWYLt/jr0\nnoIyQ56b2fArgQZu4XiPuMU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcs-upload@mmh-welfare.iam.gserviceaccount.com",
+  "client_id": "108395159598886604958",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-upload%40mmh-welfare.iam.gserviceaccount.com"
+}
