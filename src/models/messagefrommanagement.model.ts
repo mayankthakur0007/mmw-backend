@@ -21,18 +21,6 @@ export class MessageFromManagement extends Entity {
     type: 'string',
     required: true,
   })
-  hosted_by: string;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
-  branch: string;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
   message: string;
 
   @property({
@@ -40,6 +28,11 @@ export class MessageFromManagement extends Entity {
     default: new Date(),
   })
   createdAt?: string;
+
+  @property({
+    type: 'object',
+  })
+  file?: Object;
 
   constructor(data?: Partial<MessageFromManagement>) {
     super(data);
