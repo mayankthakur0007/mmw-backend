@@ -12,6 +12,7 @@ export * from './loan.controller';
 export * from './media.controller';
 export * from './mom.controller';
 export * from './messagefrommanagement.controller';
+export * from './messaging.controller';
 export * from './internalcomms.controller';
 export * from './ping.controller';
 export * from './users-branch.controller';

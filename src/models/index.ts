@@ -13,6 +13,7 @@ export * from './loan.model';
 export * from './media.model';
 export * from './mom.model';
 export * from './messagefrommanagement.model';
+export * from './messaging.model';
 export * from './internalcomms.model';
 export * from './users-credentials.model';
 export * from './users-with-password.model';

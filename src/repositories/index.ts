@@ -13,6 +13,7 @@ export * from './loan.repository';
 export * from './media.repository';
 export * from './mom.repository';
 export * from './messagefrommanagement.repository';
+export * from './messaging.repository';
 export * from './internalcomms.repository';
 export * from './users-credentials.repository';
 export * from './users.repository';
